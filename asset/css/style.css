@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+.font-comfortaa{
+    font-family: 'Comfortaa', cursive;
+}
+
+svg#freepik_stories-developer-activity:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-developer-activity.animated #freepik--Character--inject-66 {
+    animation: 1.5s Infinite linear floating;
+    animation-delay: 0.5s;
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
