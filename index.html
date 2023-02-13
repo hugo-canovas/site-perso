@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./dist/tailwind.css">
     <title>Hugo Canovas | Home</title>
 </head>
 
@@ -25,15 +25,15 @@
                 </div>
             </nav>
         </header>
-
-        <div class="flex flex-col flex-wrap w-full justify-center items-center text-center px-6">
-            <p class="text-stone-400 text-xl">Salut, moi c'est 
-                <span class="text-emerald-600 font-bold">Hugo</span> !<br>
-                <span class="text-red-900 font-bold">Développeur</span> web et web mobile
-            </p>
-        </div>
-        <div class="px-6">
-            <svg class="animated h-full w-full" id="freepik_stories-developer-activity" xmlns="http://www.w3.org/2000/svg"
+        <div class="flex flex-col w-full justify-evenly md:flex-row-reverse md:mt-8 md:px-4">
+            <div class="flex flex-col flex-wrap w-full justify-center items-center text-center px-6 md:w-2/4 lg:w-5/12">
+                <p class="text-stone-400 text-xl">Salut, moi c'est 
+                    <span class="text-emerald-600 font-bold">Hugo</span> !<br>
+                    <span class="text-red-900 font-bold">Développeur</span> web et web mobile
+                </p>
+            </div>
+            <div class="flex w-full px-6 justify-center md:w-2/4 lg:w-5/12">
+                <svg class="animated h-full w-full" id="freepik_stories-developer-activity" xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500 500" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
         xmlns:svgjs="http://svgjs.com/svgjs">
         <g id="freepik--Lines--inject-66" class="animable" style="transform-origin: 168.685px 221.905px;">
@@ -424,7 +424,8 @@
                 </feColorMatrix>
             </filter>
         </defs>
-            </svg>
+                </svg>
+            </div>
         </div>
     </div>
     <section class="h-screen pt-8 px-6 bg-slate-900">
